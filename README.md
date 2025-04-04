@@ -82,7 +82,43 @@ Modify this to **test different scenarios**.
 ### **Deadlock Graph Representation**  
 The following diagram illustrates the process dependencies and potential deadlock cycle:
 
-![Deadlock Graph](deadlock_graph.png)
+![Deadlock Graph](images/deadlock_graph.png)
+
+---
+
+## 🖼️ Output Visualization
+
+This section presents visual comparisons of the output from different versions of the deadlock detection system.
+
+### 🔹 1. Original Version (Basic Detection)
+
+This version demonstrates basic deadlock detection using static process dependencies.
+
+![Original Version Output](images/original_output.png)
+
+---
+
+### 🔹 2. Enhanced Version Using Goroutines
+
+This version uses Go **goroutines** for concurrency, enabling faster probe handling and non-blocking communication.
+
+![Goroutines Output](images/goroutine_output.png)
+
+---
+
+### 🔹 3. Enhanced RPC Version (Server & Client)
+
+This version uses **RPC** to simulate a truly distributed environment with **client-server** communication, accurate logging, and better message tracking.
+
+#### 🔸 Server Output
+Shows how each RPC server logs incoming and outgoing probe messages and detection events.
+
+![RPC Server Output](images/rpc_server_output.png)
+
+#### 🔸 Client Output
+Displays how the initiating process sends the first probe and logs the traversal path.
+
+![RPC Client Output](images/rpc_client_output.png)
 
 ---
 
@@ -98,8 +134,9 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## Authors
-- **N Sai Kiran Varma** (CB.EN.U4CSE22424)
-- **S. Siva Pravallika** (CB.EN.U4CSE22440)
-- **Suman Panigrahi** (CB.EN.U4CSE22444)[GitHub Link](https://github.com/suman1406)
-- **Sravani Orugranti** (CB.EN.U4CSE22457)[GitHub Link](https://github.com/sravs-01)
+## 👥 Authors
+
+- **N. Sai Kiran Varma** (CB.EN.U4CSE22424)  
+- **S. Siva Pravallika** (CB.EN.U4CSE22440)  
+- **Suman Panigrahi** (CB.EN.U4CSE22444) – [GitHub](https://github.com/suman1406)  
+- **Sravani Orugranti** (CB.EN.U4CSE22457) – [GitHub](https://github.com/sravs-01)
