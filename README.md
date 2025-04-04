@@ -25,8 +25,8 @@ This project implements a **distributed deadlock detection** algorithm using **R
 
 ### **1. Clone the repository**  
 ```bash
-git clone https://github.com/sravs-01/deadlock-detection.git
-cd deadlock-detection
+git clone https://github.com/sravs-01/Deadlock-detection.git
+cd Deadlock-detection
 ```
 
 ### **2. Run the RPC servers (Processes)**  
