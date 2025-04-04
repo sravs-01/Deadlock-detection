@@ -95,3 +95,11 @@ The following diagram illustrates the process dependencies and potential deadloc
 
 ## **License**  
 This project is licensed under the **MIT License**.  
+
+---
+
+## Authors
+- **N Sai Kiran Varma** (CB.EN.U4CSE22424)
+- **S. Siva Pravallika** (CB.EN.U4CSE22440)
+- **Suman Panigrahi** (CB.EN.U4CSE22444)[GitHub Link](https://github.com/suman1406)
+- **Sravani Orugranti** (CB.EN.U4CSE22457)[GitHub Link](https://github.com/sravs-01)
