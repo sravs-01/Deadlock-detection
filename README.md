@@ -129,7 +129,7 @@ Displays how the initiating process sends the first probe and logs the traversal
 
 ---
 
-📄 Documentation
+## 📄 **Documentation**
 Offline versions are available in the docs/ folder (.pdf and .docx).
 
 View the live version(s) here: [Google Docs Project Report](https://docs.google.com/document/d/1spu1dJ6mS8UE3ECQuBBQtrbaLZ5Qaf7oTRDXdGYRx0A/edit?usp=sharing)
